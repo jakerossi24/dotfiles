@@ -18,7 +18,8 @@ call vundle#end()
 filetype plugin indent on
 
 syntax enable
-colorscheme molokai
+" colorscheme delek
+colorscheme zellner
 
 set t_Co=256
 set number

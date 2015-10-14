@@ -1,8 +1,13 @@
 #!/bin/bash
 
-ln -s .gitconfig ~/.gitconfig
-ln -s .gitignore_global ~/.gitignore_global
-ln -s .tmux.conf ~/.tmux.conf
-ln -s .vimrc ~/.vimrc
+echo "Symlink - Start"
+sudo ln -s $HOME/dotfiles/.gitconfig $HOME/.gitconfig
+sudo ln -s $HOME/dotfiles/.gitignore_global $HOME/.gitignore_global
+sudo ln -s $HOME/dotfiles/.tmux.conf $HOME/.tmux.conf
+sudo ln -s $HOME/dotfiles/.vimrc $HOME/.vimrc
+echo "Symlink - Complete"
 
-echo "Completed symlink"
+echo "Vim Setup - Start"
+git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall
+echo "Vim Setup - Complete"

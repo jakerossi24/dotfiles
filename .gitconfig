@@ -16,4 +16,8 @@
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [push]
-	default = simple
+	default = current
+[alias]
+	st = status
+	co = checkout
+	graph = log --graph --pretty=format:\"%C(yellow)%h%Cblue%d%C(reset) %s %C(white) %an, %ar%C(reset)\"

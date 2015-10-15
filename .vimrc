@@ -13,6 +13,7 @@ Plugin 'austintaylor/vim-indentobject'
 Plugin 'pangloss/vim-javascript'
 Plugin 'burnettk/vim-angular'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'kien/ctrlp.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -57,3 +58,7 @@ nmap ,l  :Align<space>
 
 " rainbow parens
 let g:rainbow_active=1
+
+" Control P settings
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'

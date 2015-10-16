@@ -62,3 +62,6 @@ let g:rainbow_active=1
 " Control P settings
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+" Change esc key
+ino kk <esc>

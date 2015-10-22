@@ -24,7 +24,6 @@ colorscheme zellner
 
 set t_Co=256
 set number
-set relativenumber
 set autoindent
 set autoread
 set backspace=2
@@ -33,6 +32,7 @@ set encoding=utf-8
 set expandtab
 set incsearch
 set ignorecase
+set iskeyword+=-
 set list
 set listchars=tab:▸\ ,trail:·
 set scrolloff=10
@@ -60,8 +60,12 @@ nmap ,l  :Align<space>
 let g:rainbow_active=1
 
 " Control P settings
+nmap ,; :CtrlP<cr>
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+" tabs
+nmap ,t :tabnew<cr>
 
 " Change esc key
 ino kk <esc>

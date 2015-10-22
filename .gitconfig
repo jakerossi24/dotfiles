@@ -9,6 +9,7 @@
 	ui = auto
 [core]
 	excludesfile = /Users/jakerossi/.gitignore_global
+	editor = vim
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 

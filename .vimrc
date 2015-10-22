@@ -14,6 +14,8 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'burnettk/vim-angular'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'kien/ctrlp.vim'
+Plugin 'elixir-lang/vim-elixir'
+Plugin 'vim-scripts/DeleteTrailingWhitespace'
 
 call vundle#end()
 filetype plugin indent on
@@ -68,4 +70,8 @@ let g:ctrlp_cmd = 'CtrlP'
 nmap ,t :tabnew<cr>
 
 " Change esc key
-ino kk <esc>
+ino jj <esc>
+nnoremap ,<space> :DeleteTrailingWhitespace<CR>:nohlsearch<cr>
+
+set exrc
+set secure

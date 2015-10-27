@@ -49,6 +49,7 @@ set wildmode=longest,list,full
 set mouse=a
 set whichwrap=<,>,h,l,[,]
 set laststatus=2
+set backupcopy=yes
 
 let mapleader=','
 

@@ -8,7 +8,7 @@
 [color]
 	ui = auto
 [core]
-	excludesfile = /Users/jakerossi/.gitignore_global
+	excludesfile = /home/vagrant/.gitignore
 	editor = vim
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"

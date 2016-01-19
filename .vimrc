@@ -14,7 +14,6 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'burnettk/vim-angular'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'kien/ctrlp.vim'
-Plugin 'elixir-lang/vim-elixir'
 Plugin 'vim-scripts/DeleteTrailingWhitespace'
 
 call vundle#end()

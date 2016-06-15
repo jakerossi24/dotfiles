@@ -48,6 +48,10 @@ set mouse=a
 set whichwrap=<,>,h,l,[,]
 set laststatus=2
 set backupcopy=yes
+set fillchars+=vert:│
+highlight VertSplit cterm=NONE ctermfg=Green ctermbg=NONE
+highlight StatusLine ctermbg=NONE ctermfg=Green cterm=NONE
+highlight StatusLineNC ctermbg=NONE ctermfg=Green cterm=NONE
 
 let mapleader=','
 

@@ -20,5 +20,6 @@
 	default = current
 [alias]
 	st = status
+  lt = log --graph --oneline --decorate --all
 	co = checkout
 	graph = log --graph --pretty=format:\"%C(yellow)%h%Cblue%d%C(reset) %s %C(white) %an, %ar%C(reset)\"
